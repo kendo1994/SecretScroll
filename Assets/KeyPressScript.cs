@@ -9,7 +9,7 @@ public class KeyPressScript : MonoBehaviour {
 
 	void Update () {
 		if (Input.anyKeyDown) {
-			counter++;
+			counter--;
 			outputText.text = "Key Press : " + counter;
 		}
 	}
